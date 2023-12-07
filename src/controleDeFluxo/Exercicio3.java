@@ -10,9 +10,9 @@ public class Exercicio3 {
 		
 		System.out.print("Digite o NOME do doador:");
 		String nome = sc.nextLine();
-		System.out.print("Digite B:");
+		System.out.print("Digite a IDADE do doador:");
 		int idade = sc.nextInt();
-		System.out.print("Digite C:");
+		System.out.print("Primeira doação de sangue:");
 		boolean primeiraDoacao = sc.nextBoolean();
 		
 		sc.close();
