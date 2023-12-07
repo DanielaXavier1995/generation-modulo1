@@ -26,7 +26,7 @@ public class Exercicio4 {
 				
 			}
 			
-		}else if (nome1.equalsIgnoreCase("invertebrado")) {
+		} else if (nome1.equalsIgnoreCase("invertebrado")) {
 			
 			if (nome2.equalsIgnoreCase("inseto")) {
 				
