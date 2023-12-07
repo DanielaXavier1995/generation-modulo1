@@ -16,29 +16,25 @@ public class Exercicio4 {
 		
 		if(nome1.equalsIgnoreCase("vertebrado")) {
 			
-			if(nome2.equalsIgnoreCase("ave")) {
+			if (nome2.equalsIgnoreCase("ave")) {
 				
-				System.out.println((nome3.equalsIgnoreCase("carnivoro") ? "Águia" : 
-					((nome3.equalsIgnoreCase("onivoro") ? "Pomba" : "Entrada inválida!"))));
+				System.out.println((nome3.equalsIgnoreCase("carnivoro") ? "Águia" : "Pomba"));
 				
-			}else if(nome2.equalsIgnoreCase("mamifero")) {
+			} else {
 				
-				System.out.println((nome3.equalsIgnoreCase("onivoro") ? "Homem" : 
-					((nome3.equalsIgnoreCase("herbivoro") ? "Vaca" : "Entrada inválida!"))));
+				System.out.println((nome3.equalsIgnoreCase("onivoro") ? "Homem" : "Vaca"));
 				
 			}
 			
 		}else if (nome1.equalsIgnoreCase("invertebrado")) {
 			
-			if(nome2.equalsIgnoreCase("inseto")) {
+			if (nome2.equalsIgnoreCase("inseto")) {
 				
-				System.out.println((nome3.equalsIgnoreCase("hematofago") ? "Pulga" : 
-					((nome3.equalsIgnoreCase("herbivoro") ? "Lagarta" : "Entrada inválida!"))));
+				System.out.println((nome3.equalsIgnoreCase("hematofago") ? "Pulga" : "Lagarta"));
 				
-			} else if(nome2.equalsIgnoreCase("anelideo")) {
+			} else  {
 				
-				System.out.println((nome3.equalsIgnoreCase("hematofago") ? "Sanguessuga" : 
-					((nome3.equalsIgnoreCase("onivoro") ? "Minhoca" : "Entrada inválida!"))));
+				System.out.println((nome3.equalsIgnoreCase("hematofago") ? "Sanguessuga" : "Minhoca"));
 				
 			}
 			
