@@ -22,7 +22,7 @@ Scanner sc = new Scanner (System.in);
 		}
 		
 		System.out.println("\n**********************************\n");
-		System.out.println("Listar dados do Set: ");
+		System.out.println("Listar dados do Set: \n");
 		
 		//Percorrendo o set e mostrando os elementos:
 		Iterator<Integer> iNumeros =  numerosSet.iterator();
