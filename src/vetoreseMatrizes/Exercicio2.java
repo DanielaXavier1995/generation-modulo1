@@ -42,8 +42,8 @@ public class Exercicio2 {
 		      .forEach(n -> System.out.print(n + " "));
 		System.out.print("\nElementos pares: ");
 		Arrays.stream(par)
-	      .filter(n -> n != 0)
-	      .forEach(n -> System.out.print(n + " "));
+	          .filter(n -> n != 0)
+	          .forEach(n -> System.out.print(n + " "));
 		System.out.println("\nSoma: " + soma);
 		System.out.printf("\nMédia: %.2f", media);
 		
